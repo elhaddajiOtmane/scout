@@ -12,7 +12,7 @@
         "laravel/sanctum": "^4.0",
         "laravel/scout": "^10.10",
         "laravel/tinker": "^2.9",
-        "meilisearch/meilisearch-php": "^1.8",
+        "meilisearch/meilisearch-php": "^1.9",
         "tightenco/ziggy": "^2.0"
     },
     "require-dev": {
