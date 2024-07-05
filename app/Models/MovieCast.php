@@ -2,13 +2,14 @@
 
 namespace App\Models;
 
+use Laravel\Scout\Searchable;
 use Illuminate\Database\Eloquent\Concerns\HasUuids;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
 class MovieCast extends Model
 {
-    use HasFactory, HasUuids;
+    use HasFactory, HasUuids, Searchable;  
 
     /**
      * The attributes that are mass assignable.
